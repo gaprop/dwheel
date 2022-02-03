@@ -1,0 +1,8 @@
+#!/bin/sh
+
+file=$1
+
+cp "$XDG_DATA_HOME/dwheel/$file" "$XDG_CACHE_HOME/dhweel"
+$EDITOR "$HOME/.cache/dwheel/$file"
+
+dwheel-check "$fileArg" "$file-answers"

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+dir=/usr/local/bin
+
+cp dwheel "$dir"
+
+mkdir "$XDG_CACHE_HOME/dwheel"
+mkdir "$XDG_DATA_HOME/dhweel"
+
+cp -r ./tables "$XDG_DATA_HOME/dhweel"
+
+ghc -dynamic -no-keep-hi-files -no-keep-o-files Main.hs -o "$dir/dwheel-check"
+cp ./dwheel "$dir/dwheel"
