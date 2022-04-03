@@ -1,0 +1,49 @@
+-- cases:              Nominative      Genitive      Dative      Accusative      Ablative
+-- First and Second Declension --
+Large(masculine, singular):
+Large(masculine, plural):
+Large(feminine, singular):
+Large(feminine, plural):
+Large(neuter, singular):
+Large(neuter, plural):
+
+Free(masculine, singular):
+Free(feminine, singular):
+Free(neuter, singular): 
+
+Beautiful(masculine, singular):
+Beautiful(feminine, singular):
+Beautiful(neuter, singular):
+
+-- Third declension --
+-- [Two endings] --
+Brave(masculine, singular):
+Brave(masculine, plural):
+Brave(feminine, singular):
+Brave(feminine, plural):
+Brave(neuter, singular):
+Brave(neuter, plural):
+
+-- [Three endings] --
+Keen(masculine, singular):
+Keen(masculine, plural):
+Keen(feminine, singular):
+Keen(feminine, plural):
+Keen(neuter, singular):
+Keen(neuter, plural):  
+
+-- [One ending] --
+Powerful(masculine, singular):
+Powerful(masculine, plural):
+Powerful(feminine, singular):
+Powerful(feminine, plural):
+Powerful(neuter, singular):
+Powerful(neuter, plural):
+
+-- [Comperatives] --
+Brave(masculine, singular):
+Brave(masculine, plural):
+Brave(feminine, singular):
+Brave(feminine, plural):
+Brave(neuter, singular):
+Brave(neuter, plural):

@@ -1,5 +1,8 @@
 # dwheel
-A program that compares two tables. It is really just meant as a wat to compare tables of words to see if the spelling between the tables are correct.
+A program that compares two tables. It is meant as a way to compare tables of words to see if the spelling in one table matches the table in the other.
 
-# Todo
-- finish this readme...
+# Installation
+To compile the program run
+```
+ghc -dynamic Main.hs
+```
