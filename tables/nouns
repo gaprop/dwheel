@@ -1,38 +1,38 @@
 -- cases:              Nominative      Genitive      Dative      Accusative      Ablative
 -- First Declension --
-Gate(feminine): porta portae portae portam porta
-Gates(feminine): portae portarum portis portas portis
+Gate(feminine):
+Gates(feminine):
 
 -- Second Declension --
-Friend(masculine): amicus amici amicum amico
-Friends(masculine): amici amicorum amicis amicos amicis
-Boy(masculine): a b c d e
-Boys(masculine): a b c d e
-Field(masculine): a b c d e
-Fields(masculine): a b c d e
-Gift(neuter): a b c d e
-Gifts(neuter): a b c d e
+Friend(masculine):
+Friends(masculine):
+Boy(masculine):
+Boys(masculine):
+Field(masculine):
+Fields(masculine):
+Gift(neuter):
+Gifts(neuter):
 
 -- Third Declension --
-King(masculine): a b c d e
-Kings(masculine): a b c d e
-Body(neuter): a b c d e
-Bodies(neuter): a b c d e
+King(masculine):
+Kings(masculine):
+Body(neuter):
+Bodies(neuter):
 
 -- Third Declension, I-stems --
-Citizen(masculine): a b c d e
-Citizens(masculine): a b c d e
-Citiy(feminine): a b c d e
-Cities(feminine): a b c d e
-Sea(neuter): a b c d e
-Seas(neuter): a b c d e
+Citizen(masculine):
+Citizens(masculine):
+Citiy(feminine):
+Cities(feminine):
+Sea(neuter):
+Seas(neuter):
 
 -- Fourth Declension --
-Fruit(masculine): a b c d e
-Fruits(masculine): a b c d e
-Horn(neuter): a b c d e
-Horns(neuter): a b c d e
+Fruit(masculine):
+Fruits(masculine):
+Horn(neuter):
+Horns(neuter):
 
 -- Fifth Declension --
-Day(masculine): a b c d e
-Days(masculine): a b c d e
+Day(masculine):
+Days(masculine):

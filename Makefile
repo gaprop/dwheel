@@ -2,25 +2,25 @@
 
 HC=ghc
 FLAGS= -dynamic -no-keep-hi-files -no-keep-o-files
-DESTDIR=lul
-DATADIR=lul/local/share
-CACHEDIR=lul/cache
+DESTDIR=/usr/local/bin
+DATADIR=${XDG_DATA_HOME}/dwheel
+CACHEDIR=${XDG_CACHE_HOME}/dwheel
 
 # all: dwheel
 
 dwheel-check: Main.hs
 	$(HC) $(FLAGS) Main.hs -o dwheel-check
 
-$(DESTDIR)/bin:
+$(DESTDIR):
+	sudo mkdir -p $@
+
+$(DATADIR):
 	mkdir -p $@
 
-$(DATADIR)/dwheel:
+$(CACHEDIR):
 	mkdir -p $@
 
-$(CACHEDIR)/dwheel:
-	mkdir -p $@
-
-install: dwheel-check $(DESTDIR)/bin $(DATADIR)/dwheel $(CACHEDIR)/dwheel
-	cp -f dwheel-check $(DESTDIR)/bin
-	cp -f dwheel $(DESTDIR)/bin
-	cp -r ./tables/* $(DATADIR)/dwheel
+install: dwheel-check tables $(DESTDIR) $(DATADIR) $(CACHEDIR)
+	sudo cp -f dwheel-check $(DESTDIR)
+	sudo cp -f dwheel $(DESTDIR)
+	cp -r ./tables/* $(DATADIR)

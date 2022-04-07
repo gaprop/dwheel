@@ -8,7 +8,6 @@ import System.Console.ANSI
 
 main = do
   args <- getArgs
-  print args
   withFile (args !! 0) ReadMode (\handle0 -> do
     withFile (args !! 1) ReadMode (\handle1 -> do
       guesses <- hGetContents handle0
