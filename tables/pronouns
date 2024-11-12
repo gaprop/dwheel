@@ -1,0 +1,121 @@
+-- cases:  Nominative   Accusative   Genitive    Dative   Ablative
+-- ego
+Me:
+You(singular):
+Us:
+You(plural):
+
+-- Meus
+Mine(masculine,singular):
+Mine(masculine,plural):
+Mine(feminine,singular):
+Mine(feminine,plural):
+Mine(neuter,singular):
+Mine(neuter,plural):
+
+-- Tuus
+Yours(masculine,singular):
+Yours(masculine,plural):
+Yours(feminine,singular):
+Yours(feminine,plural):
+Yours(neuter,singular):
+Yours(neuter,plural):
+
+-- Suus
+His(masculine,singular):
+His(masculine,plural):
+Hers(feminine,singular):
+Hers(feminine,plural):
+Its(neuter,singular):
+Its(neuter,plural):
+
+-- Noster
+Ours(masculine,singular):
+Ours(masculine,plural):
+Ours(feminine,singular):
+Ours(feminine,plural):
+Ours(neuter,singular):
+Ours(neuter,plural):
+
+-- Voster
+Theirs(masculine,singular):
+Theirs(masculine,plural):
+Theirs(feminine,singular):
+Theirs(feminine,plural):
+Theirs(neuter,singular):
+Theirs(neuter,plural):
+
+-- Is
+He(masculine,singular):
+They(masculine,plural):
+Her(feminine,singular):
+They(feminine,plural):
+It(neuter,singular):
+They/those(neuter,plural):
+
+-- Hic
+This(masculine,singular):
+These(masculine,plural):
+This(feminine,singular):
+These(feminine,plural):
+This(neuter,singular):
+These(neuter,plural):
+
+-- Ille
+That(masculine,singular):
+Those(masculine,plural):
+That(feminine,singular):
+Those(feminine,plural):
+That(neuter,singular):
+Those(neuter,plural):
+
+-- Iste
+That(masculine,singular):
+Those(masculine,plural):
+That(feminine,singular):
+Those(feminine,plural):
+That(neuter,singular):
+Those(neuter,plural):
+
+-- ipse
+Himself(masculine,singular):
+Themselves(masculine,plural):
+Herself(feminine,singular):
+Themselves(feminine,plural):
+Itself(neuter,singular):
+Themselves(neuter,plural):
+
+-- quis
+-- relative: as,whom,
+-- interrogative: who,if
+-- indefinite: someone
+who(masculine,singular):
+who(masculine,plural):
+who(feminie,singular):
+who(feminie,plural):
+who(neuter,singular):
+who(neuter,plural):
+
+-- quisque
+whoever(masculine,singular):
+whoever(masculine,plural):
+whoever(feminine,singular):
+whoever(feminine,plural):
+whoever(neuter,singular):
+whoever(neuter,plural):
+
+-- quidam
+someone(masculine,singular):
+someone(masculine,plural):
+someone(feminine,singular):
+someone(feminine,plural):
+someone(neuter,singular):
+someone(neuter,plural):
+
+-- uterque
+both(masculine,singular):
+both(masculine,plural):
+both(feminine,singular):
+both(feminine,singular):
+both(neuter,plural):
+both(neuter,plural):

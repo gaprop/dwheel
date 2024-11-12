@@ -7,7 +7,7 @@ data Answer = Answer String deriving (Show)
 
 parseAnswer :: Parser Answer
 parseAnswer = do
-  answer <- many1 letter
+  answer <- many1 $ letter <|> char '-' <|> char '/'
   return $ Answer answer
 
 parseLineAnswers :: Parser [Answer]

@@ -32,7 +32,7 @@ parseDeclension = do
 
 parseGuess :: Parser Guess
 parseGuess = do
-  guess <- many1 letter
+  guess <- many1 $ letter <|> char '-' <|> char '/'
   return $ Guess guess
 
 parseGuesses :: Parser [Guess]

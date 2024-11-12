@@ -16,6 +16,8 @@ main = do
           answers' = parse parseAnswers "Answers" answers
        in case (guesses', answers') of
         (Right pGuesses, Right pAnswers) -> run pGuesses pAnswers
+        (Left eGuesses, _) -> print eGuesses
+        (_, Left eAnswers) -> print eAnswers
       )
     )
 

@@ -1,10 +1,25 @@
 #!/bin/sh
 
-file=$1
 CACHE=$XDG_CACHE_HOME/dwheel
 DATA=$XDG_DATA_HOME/dwheel
 
-cp "$DATA/$file" "$CACHE"
-$EDITOR "$CACHE/$file"
 
+while getopts "n" flag; do
+  case $flag in
+    n) cp "$DATA/$2" "$CACHE" ;;
+    \?) 
+        echo "Invalid flag: $flag"
+        exit
+      ;;
+  esac
+done
+
+shift $((OPTIND - 1))
+file=$1
+
+if [ ! -f "$CACHE/$file" ]; then
+  cp "$DATA/$file" "$CACHE"
+fi
+
+$EDITOR "$CACHE/$file"
 dwheel-check "$CACHE/$file" "$DATA/$file-answers"

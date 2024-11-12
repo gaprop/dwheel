@@ -8,7 +8,7 @@ CACHEDIR=${XDG_CACHE_HOME}/dwheel
 
 # all: dwheel
 
-dwheel-check: Main.hs
+dwheel-check: Main.hs Parser.hs ParserAnswer.hs
 	$(HC) $(FLAGS) Main.hs -o dwheel-check
 
 $(DESTDIR):
